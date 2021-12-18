@@ -10,11 +10,11 @@ from google_trans_new import google_translator
 translator = google_translator()
 
 BOT_TOKEN = Config.BOT_TOKEN
-BOT_ID = Config.1708422349
+BOT_ID = Config.5082711261
 
-bot = Client("MizukiChat", bot_token=BOT_TOKEN, api_id=6,
-             api_hash="eb06d4abfb49dc3eeb1aeb98ae0f581e")
-print("\nMizuki Chatbot Started!\n")
+bot = Client("SlapChat", bot_token=BOT_TOKEN, api_id=6,
+             api_hash="1bff51d7116ad155e9cc1dd8c907aa8f")
+print("\nSlapTap Chatbot Started!\n")
 
 
 async def fetch(url):
